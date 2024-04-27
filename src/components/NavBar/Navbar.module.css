@@ -1,0 +1,41 @@
+
+.wrapper{
+
+}
+
+.navWrapper {
+   @apply relative flex w-full flex-wrap items-center justify-evenly bg-zinc-50 py-2 dark:bg-neutral-700 lg:py-4
+}
+
+.navContent {
+    @apply flex w-full flex-wrap items-center justify-evenly px-3
+}
+
+.navLogo {
+    @apply mx-2 my-1 ml-10 flex items-center lg:mb-0 lg:mt-0
+}
+
+.navItem {
+    @apply text-black/60 transition  duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2
+}
+
+.formWrapper {
+    @apply hidden md:flex items-center relative mr-5 bg-[#f6f6f6]
+}
+
+.formIcon {
+    @apply absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none
+}
+
+.formInput {
+    @apply relative m-0 pl-10 block flex-auto rounded-sm border border-solid bg-transparent px-20 py-1.5 text-base font-normal  
+     
+}
+
+.iconWrapper {
+    @apply flex items-center
+}
+
+.iconStyle {
+    @apply me-3 inline-block  rounded bg-[#f6f6f6] px-3 py-2.5 text-[#807d7e]
+}

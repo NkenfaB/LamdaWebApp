@@ -1,0 +1,36 @@
+
+.titleGap {
+    @apply py-4 px-28 mx-4 m-auto
+}
+
+.titleContainer {
+    @apply relative pl-4 pr-4 py-1
+}
+
+.titlePadding {
+    @apply absolute inset-y-0 left-0 bg-[#8a33fd] w-2 rounded-md
+}
+
+.titleText {
+    @apply ml-4 text-[#3c4242]
+}
+
+.container {
+    @apply grid grid-cols-4 gap-8 py-4 px-36 mx-4 m-auto
+}
+
+.cardStyle {
+    @apply block rounded-lg bg-white shadow-lg dark:bg-neutral-700 text-left
+}
+
+.imgageStyle {
+    @apply rounded-t-lg
+}
+
+.titleWrapper {
+    @apply p-2
+}
+
+.titleStyle {
+    @apply mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50
+}

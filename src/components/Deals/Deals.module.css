@@ -1,0 +1,25 @@
+
+
+.container {
+    @apply flex justify-between items-center py-16 px-28
+}
+
+.cardWrapper {
+    @apply w-1/2 mx-2
+}
+
+.cardStyle {
+    @apply bg-white rounded-lg shadow-lg
+}
+
+.imgageStyle {
+    @apply rounded-t-lg
+}
+
+.titleWrapper {
+    @apply p-2
+}
+
+.titleStyle {
+    @apply text-xl font-bold mb-2
+}
